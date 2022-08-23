@@ -35,7 +35,9 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
+	
 }
+
 
 h1, h2, h3, h4, h5, h6 {
 	/*font-family: 'Merriweather', Serif;*/
@@ -90,10 +92,10 @@ footer a:hover {
 .hero-image {
 	display: flex;
 	flex-direction: column;
-	background-image: url('/static/img/showcase.png');
+	background-image: url('/static/img/home_div.png');
 	align-self: center;
 	height: 100%;
-	min-height: 30em;
+	min-height: 40em;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -102,17 +104,18 @@ footer a:hover {
 }
 
 .hero-text {
-	width: 300px;
-	height: 400px;
+	/*width: 300px;*/
+	height: 200px;
 	text-align: left;
 	color: #fff;
+	
 }
 
 .hero-header {
-	font-family: 'Merriweather', serif;
-	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
 	align-self: center;
-	font-size: 50px;
+	font-size: 80px;
 	line-height: 1em;
 
 }
@@ -124,7 +127,7 @@ footer a:hover {
 
 .btn-custom {
 	/*background-color: #ff6600;*/
-	background-color: #1E6D52;
+	background-color: #E97451;
 	color: #fff;
 }
 

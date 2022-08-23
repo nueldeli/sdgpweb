@@ -1,6 +1,22 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
 {% block content %}
+<div class="hero-image">
+		<div class="hero-text text-center">
+			<!-- <img class="w-50 mb-2" src="{% static 'img/home_div.png' %}"> -->
+			<h1 class="hero-header">Sarawak Delta Geopark</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+			<br>
+			<form class="d-flex" method="POST" action="">
+				{% csrf_token %}
+				<input class="form-control mr-2" type="text" placeholder="What's on your mind?" aria-label="Search" name="searched">
+				<button class="btn btn-custom">Search</button>
+			</form>
+		</div>
+	</div>
 <div class="custom-div">
 	<br>
 	<h3>it works</h3>
