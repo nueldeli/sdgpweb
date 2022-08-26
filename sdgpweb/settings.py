@@ -31,6 +31,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # blog app
+    'blog.apps.BlogConfig',
+    # ---
+    # Ckeditor app
+    'ckeditor',
+    'ckeditor_uploader',
+    # ---
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -119,7 +126,9 @@ USE_THOUSAND_SEPARATOR = True
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'sdgpweb/static')] 
 STATIC_URL = 'static/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'flrweb/media')
+# Media Stuff
+CKEDITOR_UPLOAD_PATH = 'uploads/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'sdgpweb/media')
 MEDIA_URL = '/media/'
 
 # Login and logout stuff

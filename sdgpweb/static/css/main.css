@@ -92,7 +92,35 @@ footer a:hover {
 .hero-image {
 	display: flex;
 	flex-direction: column;
-	background-image: url('/static/img/home_div.png');
+	background-image: url('/static/img/home_div1.png');
+	align-self: center;
+	height: 100%;
+	min-height: 40em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-image {
+	display: flex;
+	flex-direction: column;
+	background-image: url('/static/img/about-hero.png');
+	align-self: center;
+	height: 100%;
+	min-height: 40em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+}
+
+.event-image {
+	display: flex;
+	flex-direction: column;
+	background-image: url('/static/img/event-hero.png');
 	align-self: center;
 	height: 100%;
 	min-height: 40em;
@@ -167,7 +195,8 @@ footer a:hover {
 }
 
 .page-footer {
-	background-color: #064f40;
+	/*background-color: #064f40;*/
+	background-color: #152237;
 	color: #fff;
 	font-size: 14px;
 }
@@ -189,7 +218,7 @@ footer a:hover {
 }
 
 .footer-copyright {
-	background-color: #000;
+	background-color: #E97451;
 }
 
 .text-label {
