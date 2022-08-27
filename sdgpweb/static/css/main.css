@@ -59,6 +59,14 @@ nav a:hover {
 	color: #E97451;
 }
 
+a {
+	color:#E97451;
+}
+
+a:hover{
+	color: #000;
+}
+
 footer a {
 	color: #fff;
 }
@@ -121,6 +129,20 @@ footer a:hover {
 	display: flex;
 	flex-direction: column;
 	background-image: url('/static/img/event-hero.png');
+	align-self: center;
+	height: 100%;
+	min-height: 40em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+}
+
+.blog-image {
+	display: flex;
+	flex-direction: column;
+	background-image: url('/static/img/blog-hero.png');
 	align-self: center;
 	height: 100%;
 	min-height: 40em;
