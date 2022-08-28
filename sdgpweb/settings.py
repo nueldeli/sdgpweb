@@ -38,6 +38,12 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     # ---
+    # contact app
+    'contact.apps.ContactConfig',
+    # ---
+    # membership app
+    'membership.apps.MembershipConfig',
+    # ---
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

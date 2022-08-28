@@ -6,12 +6,14 @@
 		<small>{{ post.author.first_name }} {{ post.author.last_name }}</small>
 		<small>{{ post.date_written.date }}</small>
 		<p>{{ post.content | safe }}</p>
+		<br>
+		<br>	
 		{% if user.is_authenticated %}
 			{% if user.is_staff and user.id == post.author.id %}
-				<div class="row">
+				<div class="row text-center">
 					<div class="col">
 						<a href="{% url 'post_update' post.pk %}">
-							<button class="btn btn-primary">Edit Post</button>
+							<button class="btn btn-custom">Edit Post</button>
 						</a>
 					</div>
 					<div class="col">
